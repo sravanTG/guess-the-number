@@ -38,6 +38,7 @@ ul {
 
 .container {
   flex-direction: column;
+  max-width: 1500px;
 }
 
 .head-box {
@@ -242,7 +243,7 @@ input {
 }
 
 .wish {
-  margin-top: 120px;
+  margin-top: 90px;
   font-size: 3rem;
 }
 

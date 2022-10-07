@@ -1,0 +1,129 @@
+/* responsive design codes */
+
+@media (max-width: 1024px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+  .wish {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  .made {
+    font-size: 0.9rem;
+  }
+  .score,
+  .high-score {
+    font-size: 1.1rem;
+  }
+
+  .ins {
+    font-size: 0.9rem;
+    margin: 12px 0 0 0;
+  }
+
+  .instructions-box {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .head-box {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .instructions-box {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .wish {
+    font-size: 1.7rem;
+    margin-top: 30px;
+  }
+  .made {
+    font-size: 1.5rem;
+  }
+  .score,
+  .high-score {
+    font-size: 1.1rem;
+  }
+
+  .ins {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .logo-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .control-ins-box p {
+    margin: 15px 0;
+  }
+
+  .game-box {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .info-box {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .logo-subtitle {
+    font-size: 0.8rem;
+  }
+  .wish {
+    font-size: 1rem;
+  }
+  .email {
+    font-size: 0.6rem;
+  }
+  .made {
+    font-size: 1.2rem;
+  }
+  .score,
+  .high-score {
+    font-size: 1.1rem;
+  }
+
+  .ins {
+    font-size: 0.9rem;
+    margin: 12px 0 0 0;
+  }
+  .info-box {
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo,
+  .made {
+    font-size: 1rem;
+  }
+  .logo-subtitle {
+    display: none;
+  }
+  .game-box {
+    gap: 1rem;
+  }
+  .wish {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .email {
+    display: none;
+  }
+}
