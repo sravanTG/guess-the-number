@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+/* globals */
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(223, 230, 233);
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.fw {
+  width: 100vw;
+}
+
+/* section attributes */
+
+/* ------- head box ---------- */
+
+.container {
+  flex-direction: column;
+}
+
+.head-box {
+  padding: 0 20px;
+  justify-content: space-evenly;
+}
+
+.logo-icon {
+  color: rgb(243, 156, 18);
+  margin: 0 10px 0 0;
+}
+
+.logo {
+  font-size: 2rem;
+  padding: 5px 20px;
+  font-weight: 500;
+  color: rgb(0, 184, 148);
+  background-color: white;
+  margin: 10px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.027);
+  transition: all 0.3s ease;
+}
+
+.logo-span {
+  color: rgb(243, 156, 18);
+}
+
+.logo:hover {
+  background-color: rgb(52, 73, 94);
+}
+
+.made-icon {
+  margin: 0 5px;
+  color: black;
+}
+
+.made {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(0, 184, 148);
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.made-span {
+  color: rgb(243, 156, 18);
+}
+
+.logo-subtitle {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+/* ------ instructions box -------- */
+
+.instructions-box {
+  align-items: flex-start;
+  flex-direction: column;
+  width: 60%;
+  margin: 35px 0;
+}
+
+.instructions-box p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.control-heading {
+  margin: 20px 0;
+  font-size: 2rem;
+  color: rgb(26, 188, 156);
+}
+
+.control-ins-box {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.034);
+}
+
+.control-ins-box p {
+  margin: 5px 0;
+}
+
+/* ------- game box ------ */
+
+.game-box {
+  padding: 10px;
+  background-color: white;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 0 0 200x 3px rgba(0, 0, 0, 0.158);
+  justify-content: space-evenly;
+}
+
+.mys-box {
+  flex-direction: column;
+}
+
+.mys-heading {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.mystery-tray {
+  background-color: rgb(10, 61, 98);
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.158);
+}
+
+.num {
+  font-size: 2.5rem;
+  padding: 30px 50px;
+  color: white;
+}
+
+/* ----- input box */
+
+.input-box {
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: rgb(130, 204, 221);
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  padding: 20px 0;
+  margin: 10px 30px;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.check-btn {
+  background: rgb(0, 184, 148);
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.137);
+  transition: all 0.2s ease;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.check-btn:hover {
+  background-color: black;
+  padding: 10px 30px;
+}
+
+.score,
+.high-score {
+  font-size: 1.5rem;
+}
+
+/* ----- buttons box */
+
+.button-box {
+  flex-direction: column;
+}
+
+.reset,
+.replay {
+  background-color: rgb(0, 184, 148);
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  margin: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.reset:hover,
+.replay:hover {
+  background-color: black;
+  border-radius: 25px;
+}
+
+.info-box {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 95%;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.wish {
+  margin-top: 120px;
+  font-size: 3rem;
+}
+
+.email {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  letter-spacing: 5px;
+}
