@@ -26,7 +26,7 @@ const displayMessage = function (givenMessage) {
   document.querySelector(".hint").textContent = givenMessage;
 };
 
-// -----------------------------------------------------------
+// -----------------MAIN LOGIC AND WIN CONDITIONS-----------------------
 
 // when clicked on the verify button
 
@@ -62,6 +62,8 @@ verifyButton.addEventListener("click", function () {
     }
   }
 });
+
+// ------------------------------------------------------
 
 // when clicked on the replay button.
 
