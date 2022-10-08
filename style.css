@@ -133,7 +133,7 @@ ul {
   background-color: white;
   width: 95%;
   border-radius: 10px;
-  box-shadow: 0 0 200x 3px rgba(0, 0, 0, 0.158);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.158);
   justify-content: space-evenly;
 }
 
@@ -150,7 +150,7 @@ ul {
   background-color: rgb(10, 61, 98);
   margin: 10px;
   border-radius: 20px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.24);
 }
 
 .num {
@@ -243,7 +243,7 @@ input {
 }
 
 .wish {
-  margin-top: 90px;
+  margin-top: 60px;
   font-size: 3rem;
 }
 
@@ -253,4 +253,16 @@ input {
   font-size: 0.8rem;
   margin-top: 10px;
   letter-spacing: 5px;
+}
+
+.source {
+  font-size: 1rem;
+  color: blue;
+  margin-top: 5px;
+  font-family: "Montserrat";
+}
+
+.source:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
